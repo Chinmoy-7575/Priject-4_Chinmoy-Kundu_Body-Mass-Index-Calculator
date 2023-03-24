@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> <span class="hilight">B</span>ody <span class="hilight">M</span>ass <span class="hilight">I</span>ndex Calculator</h1>
+        <div class="box">
+            <div class="upper">
+                <div class="container1">
+                    <input type="number" class="text-input" id="age" autocomplete="off" required />
+                    <p class="text">Age</p>
+                </div>
+                <div class="container2">
+                    <input type="radio" name="radio" id="m">
+                    <p class="text">Male</p>
+                    <span class="checkmark"></span>
+                </div>
+                <div class="container2">
+                    <input type="radio" name="radio" id="f">
+                    <p class="text">Female</p>
+                    <span class="checkmark"></span>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="container1">
+                    <input type="number" class="text-input" id="height" required>
+                    <p class="text">Height(cm)</p>
+                </div>
+                <div class="container1">
+                    <input type="number" class="text-input" id="weight" required>
+                    <p class="text">Weight(kg)</p>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="calculate" id="submit" onclick="calculate();">Submit</button>
+            </div>
+        </div>
+            <div class="result">
+                <p class="comment"></p>
+            </div>
+            <div id="result">BMI: 00.00</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

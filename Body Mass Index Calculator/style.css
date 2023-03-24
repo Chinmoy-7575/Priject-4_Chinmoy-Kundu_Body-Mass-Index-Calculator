@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: white;
+} 
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(rgb(209, 238, 155), rgb(203, 209, 148), rgb(209, 238, 155));
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hilight{
+    color: blue;
+}
+
+.box{
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 12px;
+    background-color: rgb(221, 238, 185);
+    border: 3px solid rgb(127, 172, 224);
+}
+
+.upper{
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    float: left;
+}
+
+.container1{
+    float: left;
+    display: flex;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.container1 .text{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.container1 input {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(68, 165, 230);
+}
+
+.container2{
+    float: left;
+    display: flex;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.container2 .text{
+    margin-top: 5px;
+}
+
+.container2 input {
+    width: 60px;
+    height: 25px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.lower{
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+button.calculate {
+    margin: 20px;
+    margin-left: 220px;
+    color: #fff;
+    background: #0044ff;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+  
+button.calculate:hover {
+    cursor: pointer;
+    background: rgb(97,138,254,1);
+}
+
+.result {
+    padding: 10px 20px;
+}
+  
+.result p {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+  
+#result {
+    margin-top: 10px;
+   /*  margin-left: 220px; */
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+    padding: 7px 20px;
+    border-radius: 55px;
+}
+  
+#comment {
+    color: #4f7df9;
+    font-weight: 700px;
+}
+  
+.comment {
+    margin: 30px;
+    display: none;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+}
+  
